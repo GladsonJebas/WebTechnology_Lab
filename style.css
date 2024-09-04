@@ -1,0 +1,11 @@
+/*External CSS*/
+body{
+    text-align: center;
+    background: linear-gradient(to bottom right,rgb(0, 255, 255),rgb(255, 255, 255));
+}
+h2{
+    background-color: rgb(190, 236, 248);
+}
+img{
+    border-radius: 10px;
+}

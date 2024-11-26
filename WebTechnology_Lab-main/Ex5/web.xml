@@ -1,0 +1,46 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+    <servlet>
+        <servlet-name>DynamicServlet</servlet-name>
+        <servlet-class>com.example.DynamicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DynamicServlet</servlet-name>
+        <url-pattern>/dynamicContent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CookieServlet</servlet-name>
+        <servlet-class>com.example.CookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieServlet</servlet-name>
+        <url-pattern>/setCookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>com.example.SessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/sessionDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DatabaseServlet</servlet-name>
+        <servlet-class>com.example.DatabaseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DatabaseServlet</servlet-name>
+        <url-pattern>/dbConnect</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PageCounterServlet</servlet-name>
+        <servlet-class>com.example.PageCounterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PageCounterServlet</servlet-name>
+        <url-pattern>/pageCounter</url-pattern>
+    </servlet-mapping>
+</web-app>

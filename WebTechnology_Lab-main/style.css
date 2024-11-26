@@ -1,0 +1,52 @@
+/* External CSS */
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #64e8ff, #ffffff);
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#div1 {
+    background-color: #64e8ff;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#div1:hover {
+    transform: scale(1.05);
+    background-color: #7cf0ff;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+img:hover {
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 10px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+footer p:hover {
+    color: #64e8ff;
+}
+
